@@ -123,7 +123,6 @@ img {
     text-transform: uppercase;
     color: var(--iris);
     display: inline-block;
-    align-items: center;
     padding-left: 156px;
     margin-bottom: 16px;
 }
@@ -204,6 +203,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: var(--white);
     width: 496px;
+    margin-bottom: 48px;
 }
 .hero-button {
     margin: 0 auto;
@@ -219,6 +219,10 @@ gap: 40px;
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     cursor: pointer
 }
 
@@ -326,10 +330,8 @@ background-color:var(--navy-blue);
     line-height: 1.50; 
     letter-spacing: 0.02em;
     color: var(--portfolio-btn);
-}
-
-.logo-foot {
-
+    max-width: 264px;
+    margin-top: 16px;
 }
 
 
