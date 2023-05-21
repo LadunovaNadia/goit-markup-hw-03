@@ -58,12 +58,12 @@ img {
 
 }
 .header-cont {
-    display: flex;
     align-items: center;
 }
 
 .page-navigation {
     align-items: center;
+    display: flex;
 }
 
     .logo {
@@ -88,11 +88,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue); 
-}
-
-.cont-footer {
-    display: flex;
-    flex-direction: column;
 }
 
 .menu-list {
@@ -121,7 +116,8 @@ gap: 40px;
 
 .menu-item {
     margin-right: 40px;
-    padding: 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .last-link {
     margin-right: 0;
@@ -357,6 +353,7 @@ margin: 0 auto;
 }
 
 .logo-studio-footer {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: var(--font-weith-logo);
     font-size: var(--font-size-logo);
