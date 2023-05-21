@@ -65,35 +65,6 @@ img {
 .page-navigation {
     align-items: center;
 }
-.heading-title {
-    font-family:var(--font-family);
-    font-weight:var(--font-weith-top);
-    font-size: 20px;
-    line-height: 1.20; 
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    margin-top: 32px;
-    margin-bottom: 8px;
-    margin-right: 24px;
-}
-
-.top-text {
-    text-align: center;
-    margin-bottom: 8px;
-
-}
-
-.subheading-title {
-    font-size: var(--font-size-btn);
-    line-height: 1.50; 
-    letter-spacing: 0.02em;
-    color: var(--button);
-    margin-top: 8px;
-    }
-
-    .low-text {
-        text-align: center;
-    }
 
     .logo {
     font-family: "Raleway", sans-serif;
@@ -185,6 +156,7 @@ gap: 40px;
     display: flex;
     margin-left: auto;
     align-items: center;
+    padding: 24px 0;
 }
 
 .adr-header {
@@ -294,7 +266,8 @@ padding-bottom: 120px;
 }
 /*===================OUR-TEAM======================*/
 .cont-team {
-    padding: 32px 16px;
+    padding: 32px 16px 32px;
+
 
 }
 .section-our-team {
@@ -317,7 +290,7 @@ padding-bottom: 120px;
 }
 
 .item-our-team {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4); 
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -332,6 +305,35 @@ padding-bottom: 120px;
 .item-our-team {
     background-color: var(--white);
 }
+
+.heading-title {
+    font-family:var(--font-family);
+    font-weight:var(--font-weith-top);
+    font-size: 20px;
+    line-height: 1.20; 
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-right: 24px;
+}
+
+.top-text {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subheading-title {
+    font-size: var(--font-size-btn);
+    line-height: 1.50; 
+    letter-spacing: 0.02em;
+    color: var(--button);
+    margin-top: 8px;
+    }
+
+    .low-text {
+        text-align: center;
+    }
 /*===================/OUR-TEAM======================*/
 
 
@@ -431,11 +433,11 @@ margin-bottom: 72px
 }
 
 .portfolio-list {
+    display: flex;
     gap: 168px 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    display: flex;
 }
 
 .portfolio-item {
