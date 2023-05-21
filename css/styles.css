@@ -126,7 +126,7 @@ img {
 
 .menu-list {
 display: flex; 
-gap: 40px;
+gap: 40px; 
 }
 
 .page-navigation {
@@ -150,6 +150,7 @@ gap: 40px;
 
 .menu-item {
     margin-right: 40px;
+    padding: 24px 0 24px;
 }
 .last-link {
     margin-right: 0;
@@ -171,10 +172,9 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: var(--button);
     font-style: normal;
-    margin-right: 40px;
     padding-top: 24px;
     margin-bottom: 24px;
-    display: flex;
+
 }
 .modal-button:hover,
 .modal-button:focus {
@@ -183,11 +183,13 @@ gap: 40px;
 
 .address-mail-btn {
     display: flex;
+    margin-left: auto;
     align-items: center;
 }
 
 .adr-header {
     display: flex;
+    gap: 40px; 
 }
 /*===================/ADDRESS======================*/
 
@@ -291,7 +293,10 @@ padding-bottom: 120px;
     height: auto; 
 }
 /*===================OUR-TEAM======================*/
+.cont-team {
+    padding: 32px 16px;
 
+}
 .section-our-team {
     background-color: var(--portfolio-btn);
     padding: 120px 0 120px;
@@ -357,11 +362,12 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--portfolio-btn);
-    margin-bottom: 16px;
-    display: inline-block; 
+    margin-bottom: 16px; 
+    
 }
 
 .logo-foot {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -369,14 +375,19 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 /*===================/FOOTER======================*/
 
 /*===============PORTFOLIO MAIN SECTION==================*/
+.main-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+    margin-bottom: 8px;
 
+}
 .main-section {
     padding: 96px 0 120px;
 }
