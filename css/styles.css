@@ -11,15 +11,6 @@
     margin-left: auto;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-}
 
 .body {
     font-family: var(--font-family);
@@ -233,7 +224,10 @@ gap: 40px;
 }
 .item-strategy {
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
+.our-strategy-title {
+    visibility: hidden;
 }
 /*===================/STRATEGY======================*/
 
