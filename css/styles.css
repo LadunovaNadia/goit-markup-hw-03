@@ -78,9 +78,10 @@ img {
     display: flex;
     align-items: center;
     margin-right: 76px;
-    padding: 24px 0;
-
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
+
 .logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: var(--font-weith-logo);
@@ -439,7 +440,7 @@ padding: 12px 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 72px
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
