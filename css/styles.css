@@ -77,8 +77,9 @@ img {
     color: var(--iris);
     display: flex;
     align-items: center;
-    padding-left: 156px;
     margin-right: 76px;
+    padding: 24px 0;
+
 }
 .logo-studio {
     font-family: "Raleway", sans-serif;
