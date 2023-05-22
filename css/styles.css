@@ -56,8 +56,8 @@ img {
 /*===================HEADER======================*/
 .page-header {
     padding: 24px 0 24px;
-
 }
+
 .header-cont {
     align-items: center;
     display: flex;
@@ -98,10 +98,13 @@ img {
 display: flex; 
 gap: 40px; 
 }
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
 
 .page-navigation {
     display: flex;
-    padding: 24px 0 24px;
+
 }
 
 .menu-link {
@@ -118,18 +121,14 @@ gap: 40px;
     color: var(--hover);
 }
 
-.menu-item {
-    padding-bottom: 24px;
-    padding-top: 24px; 
-}
 .last-link {
     margin-right: 0;
 
 }
 .page-header {
-    padding-top: 24px;
     border-bottom: 1px solid #E7E9FC;
     box-sizing: border-box;
+    padding: 24px 0 24px;
 }
 /*===================/HEADER======================*/
 
@@ -142,12 +141,27 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: var(--button);
     font-style: normal;
-    padding-top: 24px;
-    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: 40px;
 
 }
 .modal-button:hover,
 .modal-button:focus {
+    color: var(--hover);
+}
+
+.modal-phone {
+    font-family: var(--font-family); 
+    font-weight: var(--font-weith-low);
+    font-size: var(--font-size-btn);
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--button);
+    font-style: normal;
+
+}
+.modal-phone:hover,
+.modal-phone:focus {
     color: var(--hover);
 }
 
@@ -250,10 +264,6 @@ height: 300px;
 }
 
 /*===================/GALLERY======================*/
-.section-gallery {
-padding-top: 120px;
-padding-bottom: 120px;
-}
 
 .galary-list {
     display: flex;
@@ -297,14 +307,6 @@ padding-bottom: 120px;
 
 }
 
-.team-item {
-    padding-top: 32px;
-    padding-bottom: 32px; 
-    padding-left: 16px; 
-    padding-right: 16px;
-
-}
-
 .item-our-team {
     width: calc((100% - 72px) / 4); 
     background: #FFFFFF;
@@ -329,14 +331,9 @@ padding-bottom: 120px;
     line-height: 1.20; 
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-top: 32px;
-    margin-bottom: 8px;
-    margin-right: 24px;
 }
-
 .top-text {
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .subheading-title {
@@ -381,7 +378,6 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--portfolio-btn);
-    margin-bottom: 16px; 
     
 }
 
@@ -394,7 +390,6 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    margin-bottom: 16px;
 }
 
 /*===================/FOOTER======================*/
@@ -412,8 +407,6 @@ margin: 0 auto;
 }
 
 .menu-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: block;
 }
 .portfolio-btn {
@@ -486,7 +479,6 @@ margin-bottom: 72px
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 
 }
 /*===============/PORTFOLIO MAIN SECTION==================*/
