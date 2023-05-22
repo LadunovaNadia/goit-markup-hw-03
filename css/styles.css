@@ -101,7 +101,10 @@ gap: 40px;
 .menu-item:not(:last-child) {
     margin-right: 40px;
 }
+.menu-item {
+    padding: 24px 0 24px;
 
+}
 .page-navigation {
     display: flex;
 
@@ -275,6 +278,10 @@ height: 300px;
     max-width: 100%; 
     height: auto; 
 }
+
+.section-gallery {
+    padding-bottom: 120px; 
+}
 /*===================OUR-TEAM======================*/
 .block-team {
     padding: 32px 16px;
@@ -331,6 +338,7 @@ height: 300px;
     line-height: 1.20; 
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 .top-text {
     text-align: center;
@@ -390,6 +398,7 @@ margin: 0 auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    margin-bottom: 16px;
 }
 
 /*===================/FOOTER======================*/
