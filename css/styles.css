@@ -54,9 +54,7 @@ img {
     margin: 0 auto;
 }
 /*===================HEADER======================*/
-.page-header {
-    padding: 24px 0 24px;
-}
+
 
 .header-cont {
     align-items: center;
@@ -97,9 +95,6 @@ img {
 .menu-list {
 display: flex; 
 gap: 40px; 
-}
-.menu-item:not(:last-child) {
-    margin-right: 40px;
 }
 
 .page-navigation {
@@ -143,9 +138,6 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: var(--button);
     font-style: normal;
-    margin-left: auto;
-    margin-right: 40px;
-
 }
 .modal-button:hover,
 .modal-button:focus {
@@ -165,13 +157,6 @@ gap: 40px;
 .modal-phone:hover,
 .modal-phone:focus {
     color: var(--hover);
-}
-
-.address-mail-btn {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    padding: 24px 0;
 }
 
 .adr-header {
@@ -337,7 +322,6 @@ height: 300px;
     line-height: 1.20; 
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
 }
 .top-text {
     text-align: center;
@@ -348,7 +332,6 @@ height: 300px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
     color: var(--button);
-    margin-top: 8px;
     }
 
     .low-text {
@@ -373,7 +356,6 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     color: var(--portfolio-btn);
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .logo-studio-footer {
@@ -443,7 +425,6 @@ justify-content: center;
 display: flex;
 gap: 24px;
 justify-content: center;
-padding: 12px 24px;
 margin-bottom: 72px
 }
 
@@ -457,7 +438,6 @@ margin-bottom: 72px
 
 .portfolio-list {
     display: flex;
-    gap: 168px 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -466,7 +446,6 @@ margin-bottom: 72px
 .portfolio-item {
     width: calc((100% - 48px) / 3);
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .portfolio-item:nth-child(3n) {
